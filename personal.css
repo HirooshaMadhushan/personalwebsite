@@ -1,0 +1,159 @@
+  body {
+  background-image: url("my.jpg");
+  background-color:rgb(47, 129, 236);
+  background-repeat:no-repeat;
+  background-size: 100%;
+  margin: 0;
+  height: "100%";
+}
+
+h2{font-family: 'Courier New', Courier, monospace;}
+p{font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  width: 10%;
+  background-color:rgb(7, 6, 8);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  width:300px;
+  opacity: 100%;
+  border: solid rgb(9, 236, 236) 3px;
+  border-radius: 100px;
+}
+
+li a {
+  display: block;
+  color:rgb(250, 250, 252);
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: rgb(68, 154, 211);
+  color: rgb(231, 13, 13);
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(240, 14, 14);
+  color: white;
+}
+.bor{border: solid rgb(26, 135, 236) 3px;
+opacity: 0.85;
+background-color: rgb(59, 52, 52);
+border-radius: 10px;
+width: 100%;}
+
+th{color:white;}
+
+img{
+    border:solid red 6px;
+    border-radius: 581px;
+    border-color:rgb(21, 144, 226);
+}
+
+/*skills*/
+* {box-sizing: border-box}
+
+.container {
+  opacity: 100%;
+  width: 70%;
+  background-color: #ddd;
+  border-radius: 100px;
+  height: 30px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: rgb(242, 10, 250);
+  height: 30px;}
+.css {width: 80%; background-color: rgb(242, 10, 250);
+  height: 30px;}
+.js {width: 65%; background-color: rgb(242, 10, 250);
+  height: 30px;}
+.php {width: 60%; background-color:rgb(242, 10, 250);
+  height: 30px;}
+
+.ski{
+  width: 90%;
+}
+
+/*box*/
+div.transbox {
+border-radius: 30px;
+  margin: 30px;
+  background-color: rgb(252, 248, 248);
+  border: 1px solid black;
+  opacity: 0.8;
+  height: 200px;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color:black;
+ 
+  
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(202, 198, 199);
+    border-radius: 50%;
+    margin: 22px 10px;
+    color: rgb(62, 158, 242);
+    text-decoration: none;
+    font-size: 20px;
+
+
+}
+.social a:hover{
+    transform: scale(1.3);
+     transition: .3s;
+
+}
+html{
+    scroll-behavior: smooth;
+  }
+  button{background-color: #4418e2;
+  border-radius: 10px;}
+
+.button a:hover{
+    transform: scale(1.3);
+     transition: .3s;
+
+}
+.sub{
+    border-radius: 10px;
+    
+}
+
+.hiroosha{
+    border-radius: 100px;
+    color:rgb(255, 249, 249);
+    background-color: #1c78e2;
+    border: solid blue 5px;
+    border: 
+    width: 600px;
+    height: 100px;
+    text-align: center;
+   
+}
+
+table{
+    border: solid blur 1px;
+}
